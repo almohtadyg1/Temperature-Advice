@@ -1,0 +1,10 @@
+while True:
+  answer = input("Is it a hot day?\n")
+  if answer == "yes":
+    print("1-Stay in an air-conditioned indoor location as much as you can.\n2-Drink plenty of water even if you don't feel thirsty.\n3-Schedule outdoor activities carefully.\n4-Take cool showers to cool down.\n\n")
+  elif answer == "no":
+    print("1-Stay in hot places.\n2-Wear heavy clothes to keep you warm.\n3-Schedule outdoor activities carefully.\n4-Take hot showers to heat up.\n\n")
+  elif answer == "normal" or answer == "semi" or answer == "nice":
+    print("Just have a nice day!\n\n")
+  else:
+    print("I can't understand.\n\n")
